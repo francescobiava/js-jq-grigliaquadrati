@@ -25,7 +25,7 @@ $(document).ready(function () {
     }
     $('.js-green-counter').text(greenCounter);
     $('.js-red-counter').text(redCounter);
-    $(this).off('click');
+    $(this).off('click').css('cursor', 'default');
   });
 
 });
