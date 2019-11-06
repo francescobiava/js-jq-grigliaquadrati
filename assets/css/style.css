@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.container {
+  margin: auto;
+  width: 600px;
+  height: 600px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(100% / 8);
+  height: calc(100% / 8);
+  border: 1px solid black;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.hidden {
+  background-color: transparent;
+}
